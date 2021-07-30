@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, sans-serif;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 7px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.78);
+}
+.aa{
+    font-size: 13px;
+    font-weight: normal;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.78);
+    
+}
+ .aa:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.87);
+}
+aaa:hover{
+    border: 2px solid rgba(0, 0, 0, 0.87);
+    border-radius: 50px;
+}
+.j{
+    background: #5355ca;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 7px 12px;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    display: grid;
+    justify-content: center;
+}
+.section{
+    margin: 120px;
+}
+.wrapper{
+    margin:0 auto;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    width: 550px;
+    position: relative;
+    bottom: 90px;
+}
+.bar{
+    position: relative;
+    left:15px;
+    color: #dcdcdc;
+}
+.bar2{
+    position: relative;
+    right: 15px;
+}
+.search{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+}
+button{
+    padding: 10px;
+}
+.btn{
+    margin-right: 10px;
+    border: lightgray;
+    outline: none;
+}
+.btn:hover{
+    border: darkgrey solid 1px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    background-color: #f2f2f2;
+    position: relative;
+    top: 100px;
+    box-shadow: none;
+    color: #222;
+}
+.f2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 20px;
+}
+.f1{
+    position: relative;
+    right: 20px;
+}
